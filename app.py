@@ -3,7 +3,7 @@ import pymysql
 from datetime import datetime
 
 app = Flask(__name__)
-app.secret_key = 'my_key_is_my_key_none_of_your_key'
+app.secret_key = 'lets_see'
 
 
 @app.route('/')
